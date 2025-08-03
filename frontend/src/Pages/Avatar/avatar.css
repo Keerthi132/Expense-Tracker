@@ -1,0 +1,76 @@
+/* Avatar Page Styling - Light Corporate Theme */
+
+body {
+  background-color: #e8f0fe;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #212529;
+}
+
+.containerBox {
+  height: 100%;
+  padding: 40px 20px;
+}
+
+.avatarBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  max-width: 1100px;
+  margin: auto;
+}
+
+h1 {
+  color: #007bff;
+  font-weight: 600;
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+}
+
+.imgAvatar {
+  border: 2px solid #dee2e6;
+  border-radius: 12px;
+  transition: transform 0.3s ease, border 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.imgAvatar:hover {
+  border: 3px solid #6f42c1;
+  transform: scale(1.03);
+  cursor: pointer;
+}
+
+.selected {
+  border: 3px solid #6f42c1 !important;
+  box-shadow: 0 0 0 4px #e9d8fd;
+}
+
+.form-select {
+  max-width: 300px;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 25px;
+  border: 1px solid #ced4da;
+  font-weight: 500;
+}
+
+button {
+  background-color: #007bff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 24px;
+  color: white;
+  font-weight: 500;
+  font-size: 1rem;
+  margin-top: 30px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
